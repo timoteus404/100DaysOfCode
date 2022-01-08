@@ -58,10 +58,8 @@ public class SinglyLinkedList {
             return;
         }else if(index == 1){
             prepand(data);
-            size++;
         }else if(index == size){
             append(data);
-            size++;
         }else {
             Node n = new Node(data);
             Node indexNode = header;
