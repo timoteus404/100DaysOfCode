@@ -1,7 +1,7 @@
 package leetcode;
 
 public class SortedSquares {
-    //9,3,2,0,5,4
+
     public int[] sortedSquares(int[] nums) {
         boolean state = true;
         for (int i = 0; i < nums.length; i++) {
