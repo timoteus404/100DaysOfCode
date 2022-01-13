@@ -11,7 +11,7 @@ public class MergeSortedArray {
         for (int i = (m+n)-1; i >= m; i--) {
             nums1[i] = nums2[--n];
         }
-        //Arrays.sort(nums1);
+
         boolean state=true;
 
         while(state) {
